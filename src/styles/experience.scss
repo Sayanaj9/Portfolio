@@ -1,0 +1,111 @@
+.projects {
+  min-height: 75vh;           
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 5% 35px;
+  position: relative;
+  z-index: 2;
+  background: linear-gradient(180deg, rgba(255,255,255,0.04) 0%, rgba(255,255,255,0.01) 100%);
+  box-shadow: 0 0 40px rgba(167,139,250,0.15); 
+
+  .my-carousel {
+    height: auto;
+
+    .carousel-inner { height: auto; 
+        .tech_stack{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: baseline;
+        gap: 8px;
+        font-weight: 500;
+       text-decoration: underline;
+  text-decoration-color: #5b76ff;
+  text-underline-offset: 8px;
+  text-decoration-thickness: 2px;
+      }
+      
+    
+    .tech_stack-items {
+        flex: 1 1 auto; 
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        line-height: 1.6;
+        margin-top: 10px;
+}
+    }
+    .carousel-control-prev,
+.carousel-control-next {
+  opacity: 3 ;
+}
+
+.carousel-control-prev {
+  left: -70px;              
+}
+.carousel-control-next {
+  right: -70px;              
+}
+
+    .carousel-item { display: none; }
+    .carousel-item.active { display: block; }
+  }
+
+  .exp-card {
+    flex: 1;
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    border-radius: 24px;
+    padding: 35px 9%;
+    color: #fff;
+    backdrop-filter: blur(14px);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+
+    &:hover {
+      box-shadow: 0 16px 32px rgba(167,139,250,0.25);
+    }
+
+    .exp-card-content {
+      flex: 1;
+      overflow-y: auto;
+      scrollbar-width: none;
+      -ms-overflow-style: none;
+    }
+    .exp-card-content::-webkit-scrollbar { display: none; }
+  }
+}
+
+
+
+@media (min-width: 1920px) {
+  .pair {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    align-items: stretch;
+  }
+
+  .exp-card {
+    min-height: clamp(560px, 65vh, 820px); 
+        padding: 10% 10% !important;
+  }
+}
+@media (max-width: 767px) {
+  .projects{
+    height: calc(100% - 25%);
+    .my-carousel {
+      height: 100%;
+      .carousel-inner {
+          height: 100%;
+      }
+      .carousel-control-prev {
+  left: 10px ;              
+}
+.carousel-control-next {
+  right: 10px ;              
+}
+    }
+  }
+}
