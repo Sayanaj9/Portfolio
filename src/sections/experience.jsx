@@ -40,19 +40,18 @@ for (let i = 0; i < experiences.length; i += 2) {
           <div className="d-flex justify-content-center align-items-stretch h-100 contents">
             <div className="exp-card w-100" style={{maxWidth: 780}}>
                   <div className="exp-card-content">
-              <h3>{x.title}</h3>
-              <p className="mb-1">{x.company}</p>
-              <small className="text-light opacity-75">{x.dates}</small>
-              <ul className="mt-3">
-                {x.bullets?.map((b,j)=><li key={j}>{b}</li>)}
-              </ul>
-              <span className='tech_stack'>Tech stack : </span>
-                <div className="tech_stack-items">
-                {x?.tech_stack?.map((tech,i)=>
-                  <span key={i}>{tech}</span>)} 
-                  </div>
-                  
-            </div>
+                        <h3>{x.title}</h3>
+                        <p className="mb-1">{x.company}</p>
+                        <small className="text-light opacity-75">{x.dates}</small>
+                        <ul className="mt-3">
+                          {x.bullets?.map((b,j)=><li key={j}>{b}</li>)}
+                        </ul>
+                        <span className='tech_stack'>Tech stack : </span>
+                        <div className="tech_stack-items">
+                            {x?.tech_stack?.map((tech,i)=>
+                              <span key={i}>{tech}</span>)} 
+                        </div>                 
+                      </div>
             </div>
           </div>
         </Carousel.Item>
