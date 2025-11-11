@@ -18,11 +18,10 @@ function handleDownload() {
   document.body.removeChild(link);
 }
   const tech_stack = [
-  { Technologies: ["JavaScript, ", "React.js, ", "Python, ", "Redux, ", "SQL, ", "HTML/CSS, ", "SCSS, " ,"AWS"],
-    Tools :["Git, " , "Visual Studio Code, ", "Eclipse, ", "Postman, ", "Jira, ", "Microsoft Office, ", "Excel"],
-    ML_Libraries : ["scikit-learn, ", "xgboost, ", "textstat, ", "nltk, ", "pandas, ", "transformers"],
+  { Technologies: ["JavaScript, ", "React.js, ","Redux, ","TypeScript, ","Python, ", "SQL, ", "HTML/CSS, ", "SCSS, " ,"AWS, ", "Jest "],
+    Tools :["Git, " ,"PostgreSQL, ", "Visual Studio Code, ", "Eclipse, ", "Postman, ", "Jira, ", "Microsoft Office (Excel)  "],
     Accessibility : ["JAWS, ", "NVDA, ", "WCAG 2.1, ", "axe DevTools"],
-  Working_knowledge: ["TypeScript, ", "Jest, ", "PostgreSQL"]
+
   }
  
 ];
@@ -53,7 +52,7 @@ function handleDownload() {
             </div>
         </div>
       </div>
-        <div className="tech_section">
+        {/* <div className="tech_section">
         <div className="tech_row">
           <IoLibrary size={25} color="white" />
           <span className="tech_label">ML Libraries :</span>
@@ -61,22 +60,13 @@ function handleDownload() {
               {tech_stack.map((tech,i)=> <span className="chip" key={i}>{tech?.ML_Libraries}</span>)}
             </div>
         </div>
-      </div>
+      </div> */}
         <div className="tech_section">
         <div className="tech_row">
           <IoAccessibilitySharp size={25} color="white" />
           <span className="tech_label">Accessibility :</span>
             <div className="tech_items">
               {tech_stack.map((tech,i)=> <span className="chip" key={i}>{tech?.Accessibility}</span>)}
-            </div>
-        </div>
-      </div>
-        <div className="tech_section">
-        <div className="tech_row">
-          <GiGiftOfKnowledge size={25} color="white"/>
-          <span className="tech_label"> Working Knowledge :</span>
-            <div className="tech_items">
-              {tech_stack.map((tech,i)=> <span className="chip" key={i}>{tech?. Working_knowledge}</span>)}
             </div>
         </div>
       </div>

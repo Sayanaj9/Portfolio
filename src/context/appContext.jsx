@@ -47,7 +47,7 @@ const prof_experiences =[
     title: "Gender Classification from Text",
     company: "University of Houston, TX",
     dates: "May 2025",
-    bullets: ["Built an ML pipeline using BERT embeddings, readability scores, and K-Means clustering for gender classification.",
+    bullets: ["Built an ML pipeline using scikit-learn, pandas, NLTK, textstat and transformers with BERT embeddings, readability scores, and K-Means clustering for gender classification.",
        "Achieved 74.3% accuracy using an ensemble of SVM, Logistic Regression, Random Forest (based & tuned), and XGBoost models.",
       "Incorporated readability-based features (Flesch, Gunning Fog, ARI) to enhance interpretability, revealing linguistic complexity trends that contributed to clearer gender separation in clusters."],
     tech_stack: ["Python,Google Collab, scikit-learn," ,"xgboost,", "textstat,", "nltk,", "pandas,", "transformers"]
