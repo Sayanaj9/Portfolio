@@ -189,13 +189,14 @@ body {
       .personal_info{
         display: flex;
         flex-direction: column;
-        padding: 10px;
+        padding: 10px 0px;
         text-align: center;
+        align-items: flex-start;
           .social_links{
             display: block;
             
           .social_icons{
-            display: block;
+            display: flex;
               margin:15px 0px
           }
         }
