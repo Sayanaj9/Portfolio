@@ -30,8 +30,7 @@ function handleDownload() {
       <div className="home-detail_scroll_area">
       <h1 className="name">Sayana Joy</h1>
       <h4>Software Developer</h4>
-      <p>Master’s student with 5 years of web development experience, delivering scalable solutions in collaboration with
-          cross-functional teams across diverse organizational settings.</p>
+      <p>Software Engineer with 5 years of experience building scalable, user-focused web applications. Experienced in delivering performant, accessible solutions through cross-functional collaboration.</p>
       <div className="technical_expertise">
         <h4>Technical Expertise</h4>
         <div className="tech_section">

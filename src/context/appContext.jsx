@@ -3,11 +3,10 @@ const prof_experiences =[
   {
     title: "Teaching Assistant",
     company: "University of Houston, TX",
-    dates: "August 2025 - Current",
-    bullets: ["Mentored and guided 40+ undergraduate students in applying project management principles and teamwork strategies to real-world software projects.",
-       "Reviewed and graded 9+ project deliverables such as charters, SRS, sprint reports, and presentations, offering actionable feedback to improve clarity and structure.",
-      "Conducted weekly 1-hour virtual review sessions to address project challenges, clarify requirements, and support effective communication across student teams.",
-    "Collaborated with the course instructor to refine evaluation rubrics and ensure fairness and consistency in project assessments."],
+    dates: "August 2025 - Present",
+    bullets: ["Mentored 80+ undergraduate students by reviewing assignments, providing structured feedback, and guiding application of project management and teamwork principles in software project simulations.",
+      "Led weekly office hours and independently conducted full class sessions in the professor’s absence, ensuring continuity of instruction and clear delivery of course material.",
+   ],
   tech_stack: ["Trello,","GitHub,", "Microsoft Teams,", "Canvas,", "Project Coordination,", "Leadership,", "Communication"]
   },
 
@@ -15,20 +14,20 @@ const prof_experiences =[
     title: "Systems Engineer",
     company: "Tata Consultancy Services, Kerala, India",
     dates: "November 2022 – July 2024",
-    bullets: ["Developed a web application using React.js, SCSS and unit testing with Jest.",
-       "Led the front-end development team of 3, improving code quality, user experience and performance.",
-      "Resolved 20+ live production issues, reducing turnaround time for critical bugs by 40%.",
-    "Conducted accessibility (a11y) testing with JAWS and NVDA to ensure WCAG 2.1 compliance and improve screen reader navigation experience."],
-    tech_stack: ["React.js, HTML, SCSS, Jest, a11y Testing (JAWS, NVDA), Git, Visual Studio Code"]
+    bullets: ["Contributed to the development of an enterprise-scale React application built for a Fortune 500 U.S. financial services client, collaborating within a cross-functional frontend team of three.",
+      "Implemented WCAG 2.1-compliant accessibility features (JAWS, NVDA) to meet mandatory compliance standards and pass recurring client audits, while maintaining 80%+ Jest test coverage to ensure build stability and production readiness.",
+      "Reviewed frontend merge requests, mentored a junior engineer, and resolved 20+ post-release production issues, reducing critical bug turnaround time by 40%."
+    ],
+    tech_stack: ["React.js, HTML, SCSS, Jest, a11y Testing (JAWS, NVDA), WCAG 2.1, axe DevTools, Git, Visual Studio Code"]
   },
   {
     title: "Senior Software Engineer",
     company: "Vanilla Networks Pvt. Ltd, Kerala, India",
     dates: "December 2020 – November 2022",
-    bullets: ["Led the frontend team, delivering React-based web applications with React Context, TypeScript, Emotion CSS, and libraries like D3, AG Grid, seamless RESTful API integration.",
-      "Collaborated in an AGILE environment, contributing to bi-weekly sprints and ensuring timely, client-focused deliveries.", 
-      "Participated in over 10 release cycles, consistently maintaining a 100% on-time delivery record.",
-    "Improved app responsiveness through reusable components and reduced load times."],
+    bullets: ["Led the introduction and implementation of D3.js for advanced data visualization, enhancing analytical capabilities within the application.",
+      "Designed and implemented dynamic AG Grid-based data tables to support scalable, interactive data rendering.",
+      "Built and maintained scalable React-based applications using TypeScript, React Context, and Emotion CSS, integrating RESTful APIs across 10+ production releases in an Agile environment."
+    ],
     tech_stack: ["React.js, TypeScript, Emotion CSS, D3, AG Grid, Git"]
 
   },
@@ -36,9 +35,10 @@ const prof_experiences =[
     title: "Software Engineer",
     company: "Attinad Software,Kerala, India",
     dates: "December 2019 – November 2020",
-    bullets: ["Developed UI using React.js, SCSS, Bootstrap and used libraries like Redux, Stripe.js for payment processing",
-      "Created graphical data representations with Apex Charts.", 
-      "Presented weekly updates and conducted over 8 client demos, improving feedback cycles and alignment.",
+    bullets: ["Developed production-ready React-based UI components using SCSS, Bootstrap, and Redux, including Stripe-integrated payment flows, improving checkout usability and overall user experience.",
+      "Created interactive data visualizations using Apex Charts to enhance business reporting dashboards.",
+      "Conducted 8+ client demos, collaborating with stakeholders to refine UI features based on feedback."
+
     ],
     tech_stack: ["React.js, Redux, SCSS, Bootstrap, Stripe.js, Git "]
   }]
@@ -50,7 +50,7 @@ const prof_experiences =[
     bullets: ["Built an ML pipeline using scikit-learn, pandas, NLTK, textstat and transformers with BERT embeddings, readability scores, and K-Means clustering for gender classification.",
        "Achieved 74.3% accuracy using an ensemble of SVM, Logistic Regression, Random Forest (based & tuned), and XGBoost models.",
       "Incorporated readability-based features (Flesch, Gunning Fog, ARI) to enhance interpretability, revealing linguistic complexity trends that contributed to clearer gender separation in clusters."],
-    tech_stack: ["Python,Google Collab, scikit-learn," ,"xgboost,", "textstat,", "nltk,", "pandas,", "transformers"]
+    tech_stack: ["Python, Google Collab, scikit-learn," ,"xgboost,", "textstat,", "nltk,", "pandas,", "transformers"]
   },
   {
     title: "Serverless Web Application",
