@@ -18,7 +18,7 @@ function handleDownload() {
   document.body.removeChild(link);
 }
   const tech_stack = [
-  { Technologies: ["JavaScript, ", "React.js, ","Redux, ","TypeScript, ","Python, ", "SQL, ", "HTML/CSS, ", "SCSS, " ,"AWS, ", "Jest "],
+  { Technologies: ["JavaScript, ", "React.js, ","Redux, ","TypeScript, ","Node.js, ", "SQL, ", "HTML/CSS, ", "SCSS, " ,"AWS, ", "Jest "],
     Tools :["Git, " ,"PostgreSQL, ", "Visual Studio Code, ", "Eclipse, ", "Postman, ", "Jira, ", "Microsoft Office (Excel)  "],
     Accessibility : ["JAWS, ", "NVDA, ", "WCAG 2.1, ", "axe DevTools"],
 

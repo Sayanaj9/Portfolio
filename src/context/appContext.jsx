@@ -1,14 +1,5 @@
 import { createContext, useEffect, useState } from "react";
 const prof_experiences =[
-  {
-    title: "Teaching Assistant",
-    company: "University of Houston, TX",
-    dates: "August 2025 - Present",
-    bullets: ["Mentored 80+ undergraduate students by reviewing assignments, providing structured feedback, and guiding application of project management and teamwork principles in software project simulations.",
-      "Led weekly office hours and independently conducted full class sessions in the professor’s absence, ensuring continuity of instruction and clear delivery of course material.",
-   ],
-  tech_stack: ["Trello,","GitHub,", "Microsoft Teams,", "Canvas,", "Project Coordination,", "Leadership,", "Communication"]
-  },
 
   {
     title: "Systems Engineer",
@@ -16,7 +7,8 @@ const prof_experiences =[
     dates: "November 2022 – July 2024",
     bullets: ["Contributed to the development of an enterprise-scale React application built for a Fortune 500 U.S. financial services client, collaborating within a cross-functional frontend team of three.",
       "Implemented WCAG 2.1-compliant accessibility features (JAWS, NVDA) to meet mandatory compliance standards and pass recurring client audits, while maintaining 80%+ Jest test coverage to ensure build stability and production readiness.",
-      "Reviewed frontend merge requests, mentored a junior engineer, and resolved 20+ post-release production issues, reducing critical bug turnaround time by 40%."
+      "Reviewed frontend merge requests, mentored a junior engineer, and resolved 20+ post-release production issues, reducing critical bug turnaround time by 40%.",
+      "Led performance optimization efforts by reducing unnecessary re-renders, implementing memoization strategies, ensuring cross-browser compatibility, and reducing API calls, resulting in faster load times and smoother interactions."
     ],
     tech_stack: ["React.js, HTML, SCSS, Jest, a11y Testing (JAWS, NVDA), WCAG 2.1, axe DevTools, Git, Visual Studio Code"]
   },
@@ -24,9 +16,9 @@ const prof_experiences =[
     title: "Senior Software Engineer",
     company: "Vanilla Networks Pvt. Ltd, Kerala, India",
     dates: "December 2020 – November 2022",
-    bullets: ["Led the introduction and implementation of D3.js for advanced data visualization, enhancing analytical capabilities within the application.",
+    bullets: ["Led the introduction and implementation of D3.js for advanced data visualization, translating Figma designs into interactive dashboards and enhancing analytical capabilities within the application.",
       "Designed and implemented dynamic AG Grid-based data tables to support scalable, interactive data rendering.",
-      "Built and maintained scalable React-based applications using TypeScript, React Context, and Emotion CSS, integrating RESTful APIs across 10+ production releases in an Agile environment."
+      "Designed and built scalable, reusable UI components and modular React applications using TypeScript, React Context for state management, and Emotion CSS, integrating REST APIs across 10+ Agile production releases."
     ],
     tech_stack: ["React.js, TypeScript, Emotion CSS, D3, AG Grid, Git"]
 
@@ -41,7 +33,18 @@ const prof_experiences =[
 
     ],
     tech_stack: ["React.js, Redux, SCSS, Bootstrap, Stripe.js, Git "]
-  }]
+  },
+     {
+    title: "Teaching Assistant",
+    company: "University of Houston, TX",
+    dates: "August 2025 - Present",
+    bullets: ["Mentored 80+ undergraduate students by reviewing assignments, providing structured feedback, and guiding application of project management and teamwork principles in software project simulations.",
+      "Led weekly office hours and independently conducted full class sessions in the professor’s absence, ensuring continuity of instruction and clear delivery of course material.",
+   ],
+  tech_stack: ["Trello,","GitHub,", "Microsoft Teams,", "Canvas,", "Project Coordination,", "Leadership,", "Communication"]
+  }
+
+]
   const project_experiences = [
   {
     title: "Gender Classification from Text",
@@ -63,6 +66,7 @@ const prof_experiences =[
     tech_stack: ["React.js, SCSS, AWS Amplify, AWS Cognito, JavaScript, Git "]
 
   }
+ 
   
 ];
 export const AppContext = createContext({
