@@ -8,6 +8,7 @@ import { IoLibrary } from "react-icons/io5";
 import { IoAccessibilitySharp } from "react-icons/io5";
 import { GiGiftOfKnowledge } from "react-icons/gi";
 import { FaPhoneAlt } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 export default function Home() {
 function handleDownload() {
   const link = document.createElement("a");
@@ -18,9 +19,9 @@ function handleDownload() {
   document.body.removeChild(link);
 }
   const tech_stack = [
-  { Technologies: ["JavaScript, ", "React.js, ","Redux, ","TypeScript, ","Node.js, ", "SQL, ", "HTML/CSS, ", "SCSS, " ,"AWS, ", "Jest "],
-    Tools :["Git, " ,"PostgreSQL, ", "Visual Studio Code, ", "Eclipse, ", "Postman, ", "Jira, ", "Microsoft Office (Excel)  "],
-    Accessibility : ["JAWS, ", "NVDA, ", "WCAG 2.1, ", "axe DevTools"],
+  { Technologies: ["JavaScript, ", "React.js, ","Redux, ","TypeScript, ","Jest, ", "HTML/CSS, ", "SCSS, ", "Tailwind CSS"],
+    Backend  :[ "Node.js, ","PostgreSQL, ", "SQL, " ,"AWS, ", "CI/CD Pipeline "],
+    Accessibility : [ "WCAG 2.1, ","JAWS, ", "NVDA, ","axe DevTools, ","Git, ","GitHub, ","Postman, ", "Jira "],
 
   }
  
@@ -30,7 +31,7 @@ function handleDownload() {
       <div className="home-detail_scroll_area">
       <h1 className="name">Sayana Joy</h1>
       <h4>Software Developer</h4>
-      <p>Software Engineer with 5 years of experience building scalable, user-focused web applications. Experienced in delivering performant, accessible solutions through cross-functional collaboration.</p>
+      <p>Software Engineer with 5 years of experience building scalable, user-focused web applications. Experienced in delivering performant, accessible, and full-stack solutions through cross-functional collaboration.</p>
       <div className="technical_expertise">
         <h4>Technical Expertise</h4>
         <div className="tech_section">
@@ -45,25 +46,16 @@ function handleDownload() {
         <div className="tech_section">
         <div className="tech_row">
           <VscTools size={25} color="white" />
-          <span className="tech_label">Tools :</span>
+          <span className="tech_label">Backend & Cloud :</span>
             <div className="tech_items">
-              {tech_stack.map((tech,i)=> <span className="chip" key={i}>{tech?.Tools}</span>)}
+              {tech_stack.map((tech,i)=> <span className="chip" key={i}>{tech?.Backend}</span>)}
             </div>
         </div>
       </div>
-        {/* <div className="tech_section">
-        <div className="tech_row">
-          <IoLibrary size={25} color="white" />
-          <span className="tech_label">ML Libraries :</span>
-            <div className="tech_items">
-              {tech_stack.map((tech,i)=> <span className="chip" key={i}>{tech?.ML_Libraries}</span>)}
-            </div>
-        </div>
-      </div> */}
         <div className="tech_section">
         <div className="tech_row">
           <IoAccessibilitySharp size={25} color="white" />
-          <span className="tech_label">Accessibility :</span>
+          <span className="tech_label">Accessibility & Tools :</span>
             <div className="tech_items">
               {tech_stack.map((tech,i)=> <span className="chip" key={i}>{tech?.Accessibility}</span>)}
             </div>
@@ -91,6 +83,15 @@ function handleDownload() {
             >
             <FaLinkedin size={30} color="white"/>
           </a>
+            <a
+              href="https://github.com/Sayanaj9"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="linkedin_icon"
+            >
+             <FaGithub size={30} color="white"/>
+          </a>
+        
           <a
               href="https://mail.google.com/mail/?view=cm&fs=1&to=sayanaj9@gmail.com"
               target="_blank"

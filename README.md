@@ -1,16 +1,125 @@
-# React + Vite
+# My-Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive developer portfolio showcasing my professional experience, technical projects, and full-stack engineering skills.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## Live Demo
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Demo Link: https://sayanajoy-portfolio.vercel.app/
 
-## Expanding the ESLint configuration
+## Features
+- Responsive modern UI optimized for desktop and mobile
+- Interactive project cards with professional experience and technical skills showcase
+- Smooth navigation and clean component-based architecture
+- Resume download integration
+- Deployed with Vercely
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tech Stack
+- **Frontend:** React, SCSS,Bootsrap
+- **Routing & State:** React Context, React Router
+- **CI/CD:** GitHub, Vercel
+- **Design:** Responsive UI, Component-Based Architecture
+
+
+## Screenshots
+
+### Home Page
+![Home](./screenshots/home.png)
+
+---
+
+### Coding Workspace
+
+![Workspace](./screenshots/passed_testcases/codesection1.png)
+
+#### Successful Testcase Execution (Including Hidden Testcases)
+
+![Testcase](./screenshots/passed_testcases/codesection2.png)
+
+![Testcase](./screenshots/passed_testcases/codesection3.png)
+
+#### Partial Testcase Failure Scenario
+
+![Testcase](./screenshots/failed_testcases/codesection1.png)
+
+![Testcase](./screenshots/failed_testcases/codesection2.png)
+---
+
+### AI Analysis
+
+![AI Analysis](./screenshots/ai.png)
+
+### Jest Unit Test Results
+
+![Unit Testcases](./screenshots/unit_testcase.png)
+
+---
+
+## Setup Instructions
+
+### Prerequisites
+- Node.js (v18+ recommended)
+- npm
+- PostgreSQL
+
+### 1. Clone the repository
+```sh
+git clone <repo-url>
+cd CodePractise
+```
+
+### 2. Backend Setup
+```sh
+cd backend
+npm install
+# Configure your .env with DB connection and OpenRouter API key
+npm run dev
+```
+
+### 3. Frontend Setup
+```sh
+cd frontend
+npm install
+npm run dev
+```
+
+### 4. Database Setup
+- Create a PostgreSQL database and run the provided schema/migration scripts in `backend/db/`.
+
+### 5. Running Tests
+```sh
+cd frontend
+npm test
+```
+
+---
+
+## Folder Structure
+```
+CodePractise/
+├── backend/
+│   ├── src/
+│   ├── db/
+│   └── ...
+├── frontend/
+│   ├── src/
+│   ├── public/
+│   └── ...
+└── README.md
+```
+
+---
+
+## Future Improvements
+
+- Authentication
+- Submission history
+- Search and sort based on question type and difficulty
+
+---
+
+## Author
+Sayana Joy
+GitHub: https://github.com/Sayanaj9
