@@ -6,8 +6,8 @@ A modern, responsive developer portfolio showcasing my professional experience, 
 
 ## Live Demo
 
-Demo Link: https://sayanajoy-portfolio.vercel.app/
-Repository Link: https://github.com/Sayanaj9/Portfolio
+- **Demo Link:** https://sayanajoy-portfolio.vercel.app/
+- **Repository Link:** https://github.com/Sayanaj9/Portfolio
 
 ## Features
 - Fully responsive UI optimized across desktop, tablet, and mobile screen sizes
@@ -26,31 +26,31 @@ Repository Link: https://github.com/Sayanaj9/Portfolio
 ## Screenshots
 
 ### Home Page
-![Home](./screenshots/home.png)
+![Home](./public/screenshots/home.png)
 
 ---
 
 ### Experience Section
 
-![Experience](./screenshots/experience.png)
+![Experience](./public/screenshots/experience.png)
 
 ### Projects Section
 
-![Projects](./screenshots/projects.png)
+![Projects](./public/screenshots/projects.png)
 
 ### Responsive Design
 
 #### Optimized for all screen sizes.
 
-![Samsung Galaxy](./screenshots/samsungGalaxy1.png)
+![Samsung Galaxy](./public/screenshots/samsungGalaxy1.png)
 
-![Samsung Galaxy](./screenshots/samsungGalaxy2.png)
+![Samsung Galaxy](./public/screenshots/samsungGalaxy2.png)
 
-![Iphone14](./screenshots/iphone14.png)
+![Iphone14](./public/screenshots/iphone14.png)
 
-![Surface duo](./screenshots/surfaceduo.png)
+![Surface duo](./public/screenshots/surfaceduo.png)
 
-![nesthub](./screenshots/nesthub.png)
+![nesthub](./public/screenshots/nesthub.png)
 ---
 
 
@@ -67,7 +67,7 @@ git clone <repo-url>
 cd Portfolio
 ```
 
-### 3. Frontend Setup
+### 2. Install Dependencies & Run
 ```sh
 cd Portfolio
 npm install
