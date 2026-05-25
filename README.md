@@ -78,7 +78,7 @@ npm run dev
 ## Folder Structure
 
 ```text
-My-portfolio/
+my-portfolio/
 ├── src/
 │   ├── components/
 │   ├── context/
