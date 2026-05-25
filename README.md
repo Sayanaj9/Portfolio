@@ -95,5 +95,5 @@ My-portfolio/
 ---
 
 ## Author
-Sayana Joy
+Sayana Joy  
 GitHub: https://github.com/Sayanaj9
