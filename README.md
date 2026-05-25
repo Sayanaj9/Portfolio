@@ -1,4 +1,4 @@
-# My-Portfolio
+# my-portfolio
 
 A modern, responsive developer portfolio showcasing my professional experience, technical projects, and full-stack engineering skills.
 
@@ -64,7 +64,7 @@ A modern, responsive developer portfolio showcasing my professional experience, 
 ### 1. Clone the repository
 ```sh
 git clone <repo-url>
-cd Portfolio
+cd my-portfolio
 ```
 
 ### 2. Install Dependencies & Run
