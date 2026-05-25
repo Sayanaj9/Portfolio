@@ -2,25 +2,25 @@
 
 A modern, responsive developer portfolio showcasing my professional experience, technical projects, and full-stack engineering skills.
 
-
 ---
 
 ## Live Demo
 
 Demo Link: https://sayanajoy-portfolio.vercel.app/
+Repository Link: https://github.com/Sayanaj9/Portfolio
 
 ## Features
-- Responsive modern UI optimized for desktop and mobile
-- Interactive project cards with professional experience and technical skills showcase
-- Smooth navigation and clean component-based architecture
+- Fully responsive UI optimized across desktop, tablet, and mobile screen sizes
+- Interactive sections showcasing professional experience, technical projects, and engineering skills
+- Built with reusable React components and responsive SCSS styling
 - Resume download integration
-- Deployed with Vercely
+- Deployed with Vercel
 
 ## Tech Stack
-- **Frontend:** React, SCSS,Bootsrap
-- **Routing & State:** React Context, React Router
+- **Frontend:** React, SCSS, Bootstrap
+- **Routing & State:**  React Router, React Context API
 - **CI/CD:** GitHub, Vercel
-- **Design:** Responsive UI, Component-Based Architecture
+- **Design:** Responsive UI, Reusable Component Design
 
 
 ## Screenshots
@@ -30,94 +30,68 @@ Demo Link: https://sayanajoy-portfolio.vercel.app/
 
 ---
 
-### Coding Workspace
+### Experience Section
 
-![Workspace](./screenshots/passed_testcases/codesection1.png)
+![Experience](./screenshots/experience.png)
 
-#### Successful Testcase Execution (Including Hidden Testcases)
+### Projects Section
 
-![Testcase](./screenshots/passed_testcases/codesection2.png)
+![Projects](./screenshots/projects.png)
 
-![Testcase](./screenshots/passed_testcases/codesection3.png)
+### Responsive Design
 
-#### Partial Testcase Failure Scenario
+#### Optimized for all screen sizes.
 
-![Testcase](./screenshots/failed_testcases/codesection1.png)
+![Samsung Galaxy](./screenshots/samsungGalaxy1.png)
 
-![Testcase](./screenshots/failed_testcases/codesection2.png)
+![Samsung Galaxy](./screenshots/samsungGalaxy2.png)
+
+![Iphone14](./screenshots/iphone14.png)
+
+![Surface duo](./screenshots/surfaceduo.png)
+
+![nesthub](./screenshots/nesthub.png)
 ---
 
-### AI Analysis
 
-![AI Analysis](./screenshots/ai.png)
-
-### Jest Unit Test Results
-
-![Unit Testcases](./screenshots/unit_testcase.png)
-
----
 
 ## Setup Instructions
 
 ### Prerequisites
 - Node.js (v18+ recommended)
 - npm
-- PostgreSQL
 
 ### 1. Clone the repository
 ```sh
 git clone <repo-url>
-cd CodePractise
-```
-
-### 2. Backend Setup
-```sh
-cd backend
-npm install
-# Configure your .env with DB connection and OpenRouter API key
-npm run dev
+cd Portfolio
 ```
 
 ### 3. Frontend Setup
 ```sh
-cd frontend
+cd Portfolio
 npm install
 npm run dev
 ```
-
-### 4. Database Setup
-- Create a PostgreSQL database and run the provided schema/migration scripts in `backend/db/`.
-
-### 5. Running Tests
-```sh
-cd frontend
-npm test
-```
-
 ---
 
 ## Folder Structure
-```
-CodePractise/
-├── backend/
-│   ├── src/
-│   ├── db/
-│   └── ...
-├── frontend/
-│   ├── src/
-│   ├── public/
+
+```text
+My-portfolio/
+├── src/
+│   ├── components/
+│   ├── context/
+│   ├── styles/
 │   └── ...
 └── README.md
 ```
 
----
-
 ## Future Improvements
 
-- Authentication
-- Submission history
-- Search and sort based on question type and difficulty
-
+- Dark/Light theme toggle
+- Enhanced animations and transitions
+- Contact form integration
 ---
 
 ## Author

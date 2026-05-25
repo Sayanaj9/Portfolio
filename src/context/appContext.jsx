@@ -27,18 +27,18 @@ const prof_experiences =[
     title: "Software Engineer",
     company: "Attinad Software,Kerala, India",
     dates: "December 2019 – November 2020",
-    bullets: ["Developed production-ready React-based UI components using SCSS, Bootstrap, and Redux, including Stripe-integrated payment flows, improving checkout usability and overall user experience.",
+    bullets: ["Developed consumer-facing React UI components using SCSS, Bootstrap, and Redux, including WebSocket driven chat functionality and Stripe-integrated payment flows, improving checkout usability and overall user experience.",
       "Created interactive data visualizations using Apex Charts to enhance business reporting dashboards.",
       "Conducted 8+ client demos, collaborating with stakeholders to refine UI features based on feedback."
 
     ],
-    tech_stack: ["React.js, Redux, SCSS, Bootstrap, Stripe.js, Git "]
+    tech_stack: ["React.js, Redux, SCSS, Bootstrap, Stripe.js, WebSocket, Git "]
   },
      {
     title: "Teaching Assistant",
     company: "University of Houston, TX",
-    dates: "August 2025 - Present",
-    bullets: ["Mentored 80+ undergraduate students by reviewing assignments, providing structured feedback, and guiding application of project management and teamwork principles in software project simulations.",
+    dates: "August 2025 - May 2026",
+    bullets: ["Mentored 100+ undergraduate students by reviewing assignments, providing structured feedback, and guiding application of project management and teamwork principles in software project simulations.",
       "Led weekly office hours and independently conducted full class sessions in the professor’s absence, ensuring continuity of instruction and clear delivery of course material.",
    ],
   tech_stack: ["Trello,","GitHub,", "Microsoft Teams,", "Canvas,", "Project Coordination,", "Leadership,", "Communication"]
@@ -46,6 +46,14 @@ const prof_experiences =[
 
 ]
   const project_experiences = [
+    {
+    title: "CodePractice - AI-Powered Full-Stack Interview Preparation Platform",
+    dates: "May 2026",
+    bullets: ["Architected and built an AI-powered coding interview platform using React, TypeScript, Redux Toolkit, Node.js, Express, PostgreSQL, and OpenRouter AI, enabling  real-time code execution and intelligent complexity analysis.",
+       "Designed and implemented scalable backend APIs and PostgreSQL relational schemas supporting categorized coding challenges, hidden test case validation, dynamic execution workflows, and AI-driven complexity analysis across 5+ test  cases per problem.",
+      "Engineered a responsive multi-panel coding workspace using Tailwind CSS, Monaco Editor, and Redux Toolkit, delivering interactive execution feedback and optimized rendering performance."],
+    tech_stack: ["React.js, ", "Typescript, ", "Redux Toolkit, ", "Node.js, ", "Express, ", "PostgreSQL, ", "Tailwind CSS, ","OpenRouter AI, ","Monaco editor"]
+  },
   {
     title: "Gender Classification from Text",
     company: "University of Houston, TX",
@@ -56,14 +64,14 @@ const prof_experiences =[
     tech_stack: ["Python, Google Collab, scikit-learn," ,"xgboost,", "textstat,", "nltk,", "pandas,", "transformers"]
   },
   {
-    title: "Serverless Web Application",
+    title: "AWS-Integrated Full-Stack Ride-Sharing Application",
     company: "University of Houston, TX",
     dates: "November 2024",
-    bullets: ["Developed a responsive, user-friendly  and interactive frontend using React.js and SCSS;",
-      "Led full frontend development and API integration in a team of three.", 
-      "Integrated AWS Cognito for secure authentication and deployed on AWS Amplify, reducing setup time by ~40%.",
-    "Designed dynamic state management and interactive UI workflows that improved overall usability and reduced user task completion time by ~25% during testing."],
-    tech_stack: ["React.js, SCSS, AWS Amplify, AWS Cognito, JavaScript, Git "]
+    bullets: ["Led frontend development in a 3-member team, building a responsive full-stack web application using React.js, Node.js, SCSS, and REST APIs to deliver interactive and user-friendly workflows.",
+      "Developed backend data retrieval routes and integrated RESTful APIs, contributing across both frontend and backend systems to support scalable application functionality.", 
+      "Implemented secure JWT-based authentication using AWS Cognito and deployed the application through AWS Amplify, reducing environment setup and deployment time by ~40%.",
+    "Designed dynamic state management and interactive UI workflows that improved usability and reduced user task completion time by ~25% during testing."],
+    tech_stack: ["React.js, Node.js, SCSS, AWS Amplify, AWS Cognito, Git, GitHub "]
 
   }
  
